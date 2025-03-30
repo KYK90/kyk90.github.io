@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Rechtsbewusstes Handeln – Quiz</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f4f4f4;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .frage {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .antwort {
+      display: none;
+      margin-top: 10px;
+      font-size: 16px;
+      color: #333;
+    }
+    .btn {
+      margin-top: 10px;
+      background: #0078D7;
+      color: white;
+      padding: 10px 14px;
+      border: none;
+      border-radius: 4px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background: #005fa3;
+    }
+  </style>
+</head>
+<body>
+<h1>Rechtsbewusstes Handeln – Quiz</h1>
+
+    <div class="card">
+      <div class="frage">Frage 1: Erläutern Sie zwei Voraussetzungen, die für eine personenbedingte Kündigung wegen Krankheit gegeben sein müssen.</div>
+      <button class="btn" onclick="toggle(this)">Antwort anzeigen</button>
+      <div class="antwort">Antwort: • negative Zukunftsprognose<br>• Beeinträchtigung der betrieblichen oder wirtschaftlichen Interessen des Arbeitgebers</div>
+    </div>
+    
+    <div class="card">
+      <div class="frage">Frage 2: Beschreiben Sie den wesentlichen Unterschied zwischen einer verhaltensbedingten und einer personenbedingten Kündigung durch den Arbeitgeber.</div>
+      <button class="btn" onclick="toggle(this)">Antwort anzeigen</button>
+      <div class="antwort">Antwort: • Verhaltensbedingte Kündigung: Fehlverhalten des Arbeitnehmers, vorherige Abmahnung erforderlich.<br>• Personenbedingte Kündigung: Kein Fehlverhalten, Arbeitnehmer kann Arbeitsleistung nicht mehr erbringen (z. B. Krankheit).</div>
+    </div>
+    
+    <div class="card">
+      <div class="frage">Frage 3: Erklären Sie zwei Wege, wie Herr Mayer die Kündigungsschutzklage beim Arbeitsgericht einreichen kann.</div>
+      <button class="btn" onclick="toggle(this)">Antwort anzeigen</button>
+      <div class="antwort">Antwort: • Durch einen Rechtsanwalt<br>• Persönlich bei der Geschäftsstelle des Arbeitsgerichts (Rechtsantragsstelle)<br>• Schriftlich selbst einreichen</div>
+    </div>
+    
+    <div class="card">
+      <div class="frage">Frage 4: Beschreiben Sie die beiden wesentlichen Inhalte einer Änderungskündigung.</div>
+      <button class="btn" onclick="toggle(this)">Antwort anzeigen</button>
+      <div class="antwort">Antwort: • Kündigung des bisherigen Arbeitsverhältnisses unter Einhaltung der Kündigungsfrist<br>• Angebot eines neuen Vertrags mit geänderten Arbeitsbedingungen</div>
+    </div>
+    
+    <div class="card">
+      <div class="frage">Frage 5: Erläutern Sie die drei Möglichkeiten, die Herr Wollmann hat, um auf die Änderungskündigung zu reagieren.</div>
+      <button class="btn" onclick="toggle(this)">Antwort anzeigen</button>
+      <div class="antwort">Antwort: • Änderung akzeptieren<br>• Änderung ablehnen und Kündigungsschutzklage erheben<br>• Änderung unter Vorbehalt annehmen und Klage erheben</div>
+    </div>
+    
+    <div class="card">
+      <div class="frage">Frage 6: Erläutern Sie eine weitere Möglichkeit, die der Arbeitgeber in dieser Situation grundsätzlich hat, um das Arbeitsverhältnis zu beenden.</div>
+      <button class="btn" onclick="toggle(this)">Antwort anzeigen</button>
+      <div class="antwort">Antwort: • Betriebsbedingte Kündigung</div>
+    </div>
+    
+    <div class="card">
+      <div class="frage">Frage 7: Beschreiben Sie unter Nennung der gesetzlichen Grundlage, ob die abgeschlossene Betriebsvereinbarung zulässig ist.</div>
+      <button class="btn" onclick="toggle(this)">Antwort anzeigen</button>
+      <div class="antwort">Antwort: • Nein, § 77 Abs. 3 BetrVG: Arbeitsbedingungen, die durch Tarifvertrag geregelt sind, dürfen nicht per Betriebsvereinbarung verändert werden.</div>
+    </div>
+    
+    <div class="card">
+      <div class="frage">Frage 8: Erläutern Sie, ob und ggf. welche rechtlichen Schritte die Gewerkschaft gegen den Betriebsrat einleiten kann.</div>
+      <button class="btn" onclick="toggle(this)">Antwort anzeigen</button>
+      <div class="antwort">Antwort: • § 23 Abs. 1 BetrVG: Antrag auf Ausschluss eines Mitglieds aus dem Betriebsrat oder Auflösung des Betriebsrats wegen grober Pflichtverletzung</div>
+    </div>
+    
+    <div class="card">
+      <div class="frage">Frage 9: Erläutern Sie Ihren Mitarbeitern, ob sie demnächst drei Stunden länger arbeiten müssen oder nicht.</div>
+      <button class="btn" onclick="toggle(this)">Antwort anzeigen</button>
+      <div class="antwort">Antwort: • Nein, sie müssen nicht länger arbeiten, da die Betriebsvereinbarung unwirksam ist (§ 77 Abs. 3 BetrVG).</div>
+    </div>
+    
+    <div class="card">
+      <div class="frage">Frage 10: Erläutern Sie, ob der im August 2020 neu gewählte Betriebsrat nur bis zur nächsten regelmäßigen Betriebsratswahl im Frühjahr 2022 gewählt ist oder automatisch auch für die kommende Wahlperiode ohne neue Wahl bereits bestimmt ist. Geben Sie die Rechtsgrundlage an.</div>
+      <button class="btn" onclick="toggle(this)">Antwort anzeigen</button>
+      <div class="antwort">Antwort: • Nein, gemäß § 13 Abs. 3 Satz 2 BetrVG ist der Betriebsrat nur bis zur nächsten regulären Wahlperiode im Frühjahr 2022 gewählt.</div>
+    </div>
+    
+    <div class="card">
+      <div class="frage">Frage 11: Bestimmen Sie die Anzahl der gewählten Betriebsratsmitglieder.</div>
+      <button class="btn" onclick="toggle(this)">Antwort anzeigen</button>
+      <div class="antwort">Antwort: • 9 Mitglieder (410 Beschäftigte – 5 leitende Angestellte – 8 Auszubildende unter 18 Jahre = 397 Wahlberechtigte; § 9 BetrVG)</div>
+    </div>
+    
+    <div class="card">
+      <div class="frage">Frage 12: Ermitteln Sie die Anzahl der freizustellenden Betriebsratsmitglieder.</div>
+      <button class="btn" onclick="toggle(this)">Antwort anzeigen</button>
+      <div class="antwort">Antwort: • 1 freizustellendes Mitglied gemäß § 38 BetrVG</div>
+    </div>
+    
+    <div class="card">
+      <div class="frage">Frage 13: Erläutern Sie, ob in diesem Fall ein Betriebsausschuss zu bilden ist, und beschreiben Sie dessen Aufgabe.</div>
+      <button class="btn" onclick="toggle(this)">Antwort anzeigen</button>
+      <div class="antwort">Antwort: • Ja, gemäß § 27 Abs. 1 BetrVG bei 9 oder mehr Mitgliedern<br>• Aufgabe: Führung der laufenden Geschäfte des Betriebsrats</div>
+    </div>
+    
+<script>
+function toggle(button) {
+  var antwort = button.nextElementSibling;
+  if (antwort.style.display === "none" || antwort.style.display === "") {
+    antwort.style.display = "block";
+    button.textContent = "Antwort verbergen";
+  } else {
+    antwort.style.display = "none";
+    button.textContent = "Antwort anzeigen";
+  }
+}
+</script>
+</body>
+</html>
